@@ -1,0 +1,13 @@
+#Escriba un programa que solicite dos números y muestre en pantalla cuál es el menor y
+#cuál el mayor. En caso sean iguales debe mostrar un mensaje indicando ello
+
+x = int(input("Ingrese un primer número"))
+y = int(input("Ingrese un segundo número"))
+
+if x > y:
+    print(f"{x} es el mayor y {y} es el menor")
+elif x < y:
+    print(f"{y} es el mayor y {x} es el menor")
+
+if x == y:
+    print(f"Son números iguales")
